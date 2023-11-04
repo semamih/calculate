@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="input1" placeholder="Введите число">
+      <input type="text" id="input2" placeholder="Введите число">
+      <input type="text" id="result" placeholder="Результат" readonly>
+    </div>
+    <div class="buttons">
+      <button class="operator" onclick="calculate('+')">+</button>
+      <button class="operator" onclick="calculate('-')">-</button>
+      <button class="operator" onclick="calculate('*')">*</button>
+      <button class="operator" onclick="calculate('/')">/</button>
+      <button class="operator" onclick="calculate('sqrt')">√</button>
+      <button onclick="clearFields()">C</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+ 
